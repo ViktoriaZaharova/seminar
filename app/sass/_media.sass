@@ -1,0 +1,249 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1300px)
+  .main-image
+    max-width: 250px
+    right: -80px
+    top: 50px
+    &:nth-child(2)
+      left: -80px
+      top: 50px
+
+  .selection-block__wrapper h6
+    margin: 0 40px
+
+  .selection-block h3, .percent
+    font-size: 40px
+
+  .will-learn .question
+    left: 0
+    font-size: 100px
+    line-height: 110px
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1050px)
+  .main-image:nth-child(2)
+    left: 0
+
+  .main-image
+    right: 0
+    max-width: 200px
+
+  .container
+    padding: 0 15px
+
+@media only screen and (max-width : 992px)
+  .phone
+    font-size: 18px
+
+  .address p:first-child
+    font-size: 14px
+
+  .address p
+    font-size: 12px
+
+  .will-learn .container
+    padding: 27px 15px 0
+
+  .will-learn .question
+    display: none
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 860px)
+  .contacts
+    display: none
+
+  header
+    padding: 24px 0 0
+    .container
+      flex-direction: column
+      align-items: center
+
+  .main-image
+    display: none
+
+  main .container:before
+    display: none
+
+  main .container
+    background: transparent
+
+  .address
+    text-align: center
+    margin: 28px 0 0 0
+
+  main
+    margin: 0
+    padding: 0
+    background: url("../img/mob.png") no-repeat center
+      size: cover
+    .contacts
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: center
+      margin: 30px auto 0
+    .container
+      padding: 192px 0 28px
+      flex-direction: column
+      align-items: center
+
+  .selection-block h3
+    font-size: 38px
+
+  .percent
+    font-size: 40px
+    margin: 18px 0 0 0
+
+  .selection-block__wrapper h6
+    font-size: 18px
+    margin: 0 22px
+
+  .question
+    font-size: 127px
+    line-height: 110px
+
+  .question-wrapper .text h3
+    font-size: 22px
+
+  .question-wrapper
+    .img
+      max-width: 280px
+
+  .phone
+    font-size: 22px
+
+  .will-learn__content
+    justify-content: space-around
+    margin: 37px 0 0
+
+  h2
+    font-size: 36px
+    span
+      font-size: 18px
+
+  .line-title
+    margin: 0 0 28px
+    .image
+      display: none
+
+  .will-learn
+    margin: 0 0 36px
+
+  .experts h2
+    margin: 0 0 39px
+
+  .experts-box .text
+    max-width: 155px
+
+  .experts-box
+    margin: 0 0 47px
+
+@media only screen and (max-width : 768px)
+  .selection-block
+    font-size: 18px
+
+  .line-title .icon
+    display: none
+
+  .experts-box .text
+    max-width: none
+
+  .experts-content
+    flex-direction: column
+    align-items: center
+
+  .experts-box
+    width: 100%
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+  form
+    width: 295px
+    label
+      span
+        padding: 0 0 11px 38px
+    .checkbox
+      padding: 0 0 0 35px
+      span
+        padding: 0
+    button
+      width: 240px
+
+  .registration
+    margin: 0 0 66px
+
+  .experts .line
+    display: none
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px)
+  .selection-block
+    font-size: 14px
+
+  header .name p
+    font-size: 20px
+
+  header .name
+    font-size: 12px
+
+  .address p:first-child
+    font-size: 12px
+
+  .address p
+    font-size: 10px
+
+  .selection-block__wrapper h6
+    font-size: 14px
+
+  .percent
+    font-size: 30px
+
+  .selection-block h3
+    font-size: 34px
+
+  .container
+    padding: 0 10px
+
+  h2
+    font-size: 30px
+
+  .experts-box .image:before
+    height: 70px
+    bottom: 0
+
+  .experts-box .company p
+    font-size: 14px
+
+  .experts-box .name
+    font-size: 16px
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
